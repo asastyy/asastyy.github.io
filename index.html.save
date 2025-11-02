@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        iframe {
+            width: 80%;
+            height: 90vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Моё резюме</h1>
+    <p>Вы можете просмотреть его ниже или <a href="cv001.pdf" download>скачать PDF</a>.</p>
+    <iframe src="cv001.pdf"></iframe>
+</body>
+</html>
+
